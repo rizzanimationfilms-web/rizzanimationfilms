@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Rizz Animation — AI Film, Animation & Visual Storytelling.">
+  <title>Rizz Animation — AI Film • Animation • Visual Storytelling</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="noise"></div>
+  <header class="site-header" id="siteHeader">
+    <a class="brand" href="#top" aria-label="Rizz Animation home">
+      <img src="assets/rizz-animation-logo.png" alt="Rizz Animation logo">
+    </a>
+    <nav class="desktop-nav">
+      <a href="#work">WORK</a>
+      <a href="#capabilities">CAPABILITIES</a>
+      <a href="#about">ABOUT</a>
+      <a href="#contact">CONTACT</a>
+    </nav>
+    <a class="header-cta" href="#contact">LET'S CREATE <span>↗</span></a>
+    <button class="menu-toggle" aria-label="Open menu"><span></span><span></span></button>
+  </header>
+
+  <div class="mobile-menu">
+    <a href="#work">WORK</a>
+    <a href="#capabilities">CAPABILITIES</a>
+    <a href="#about">ABOUT</a>
+    <a href="#contact">CONTACT</a>
+  </div>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-grid"></div>
+      <div class="hero-copy reveal">
+        <p class="eyebrow">RIZZ ANIMATION / CREATIVE STUDIO</p>
+        <h1>WE CREATE<br><span>WORLDS</span><br>THAT MOVE.</h1>
+        <p class="hero-sub">AI FILM • ANIMATION • VISUAL STORYTELLING</p>
+        <a class="line-link" href="#work">EXPLORE THE WORK <span>↓</span></a>
+      </div>
+      <div class="hero-mark">RA<span>01</span></div>
+      <div class="scroll-note">SCROLL TO EXPLORE</div>
+    </section>
+
+    <section class="intro section-pad">
+      <div class="section-number">01</div>
+      <div class="intro-content reveal">
+        <p class="eyebrow">WHAT WE DO</p>
+        <h2>STORY FIRST.<br><span>TECHNOLOGY AS THE TOOL.</span></h2>
+        <p>We create films, animation, commercials and visual experiences by combining cinematic thinking with modern AI-assisted production.</p>
+      </div>
+    </section>
+
+    <section class="work section-pad" id="work">
+      <div class="section-heading reveal">
+        <div>
+          <p class="eyebrow">SELECTED WORK</p>
+          <h2>PROJECTS</h2>
+        </div>
+        <span class="count" id="projectCount">PROJECTS</span>
+      </div>
+
+      <div class="filters" role="tablist">
+        <button class="filter active" data-filter="all">ALL</button>
+        <button class="filter" data-filter="films">FILMS</button>
+        <button class="filter" data-filter="animation">ANIMATION</button>
+        <button class="filter" data-filter="commercials">AI COMMERCIALS</button>
+        <button class="filter" data-filter="industrial">INDUSTRIAL</button>
+        <button class="filter" data-filter="experiments">EXPERIMENTS</button>
+      </div>
+
+      <div class="project-grid" id="projectGrid">
+        <!-- Project cards are rendered here by script.js from data/projects.json -->
+      </div>
+    </section>
+
+    <section class="statement">
+      <div class="statement-inner reveal">
+        <p class="eyebrow">THE RIZZ APPROACH</p>
+        <h2>FROM IDEA<br>TO <span>IMAGE.</span><br>FROM IMAGE<br>TO <span>STORY.</span></h2>
+      </div>
+    </section>
+
+    <section class="capabilities section-pad" id="capabilities">
+      <div class="section-number">02</div>
+      <div class="section-heading reveal">
+        <div><p class="eyebrow">CAPABILITIES</p><h2>WHAT WE BUILD</h2></div>
+      </div>
+      <div class="cap-grid">
+        <div class="cap reveal"><span>01</span><h3>STORY</h3><p>Concept, script, narrative structure and visual direction.</p></div>
+        <div class="cap reveal"><span>02</span><h3>AI FILMMAKING</h3><p>AI-assisted image and video production for cinematic sequences.</p></div>
+        <div class="cap reveal"><span>03</span><h3>ANIMATION</h3><p>Character, environment, motion and stylized animation.</p></div>
+        <div class="cap reveal"><span>04</span><h3>COMMERCIALS</h3><p>Product films, branded stories and campaign visuals.</p></div>
+        <div class="cap reveal"><span>05</span><h3>INDUSTRIAL</h3><p>Process visualization, machines, manufacturing and technical stories.</p></div>
+        <div class="cap reveal"><span>06</span><h3>POST PRODUCTION</h3><p>Editing, sound, pacing, finishing and final delivery.</p></div>
+      </div>
+    </section>
+
+    <section class="about section-pad" id="about">
+      <div class="section-number">03</div>
+      <div class="about-layout">
+        <div class="about-title reveal"><p class="eyebrow">ABOUT RIZZ ANIMATION</p><h2>AI MEETS<br><span>CREATIVE<br>STORYTELLING.</span></h2></div>
+        <div class="about-copy reveal">
+          <p class="large">Rizz Animation is a video-first creative studio focused on making stories that are visually ambitious, cinematic and built for modern audiences.</p>
+          <p>From short films and animation to commercials and industrial visualizations, every project starts with the idea and ends with a finished piece designed to communicate.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact section-pad" id="contact">
+      <div class="contact-box reveal">
+        <p class="eyebrow">HAVE A PROJECT?</p>
+        <h2>LET'S CREATE<br><span>SOMETHING<br>EXTRAORDINARY.</span></h2>
+        <a class="contact-button" href="mailto:hello@rizzanimation.com">START A CONVERSATION <span>↗</span></a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-top">
+      <img src="assets/rizz-animation-logo.png" alt="Rizz Animation">
+      <div class="footer-tag">AI FILM • ANIMATION<br>VISUAL STORYTELLING</div>
+    </div>
+    <div class="footer-bottom"><span>© 2026 RIZZ ANIMATION</span><span>BUILT FOR STORIES THAT MOVE.</span></div>
+  </footer>
+
+  <div class="modal" aria-hidden="true">
+    <div class="modal-backdrop"></div>
+    <div class="modal-card">
+      <button class="modal-close" aria-label="Close">×</button>
+      <p class="eyebrow modal-type"></p>
+      <h2 class="modal-title"></h2>
+      <div class="modal-placeholder" id="modalPlaceholder"><span>PROJECT VIDEO / MEDIA</span><small>Replace this panel with the final project video or poster.</small></div>
+      <div class="modal-video" id="modalVideo" style="display:none;aspect-ratio:16/8;"></div>
+      <p class="modal-description" id="modalDescription">Project presentation space for synopsis, production details, capabilities demonstrated and behind-the-scenes material.</p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

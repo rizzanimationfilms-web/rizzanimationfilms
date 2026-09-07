@@ -1,0 +1,80 @@
+[
+  {
+    "title": "कमरा नं. 302",
+    "slug": "kamra-302",
+    "category": "films",
+    "type": "FILM",
+    "number": "01",
+    "featured": true,
+    "thumbnail": "assets/kamra-302.jpg",
+    "video_url": "",
+    "description": "Project presentation space for synopsis, production details, capabilities demonstrated and behind-the-scenes material."
+  },
+  {
+    "title": "Pip Pop",
+    "slug": "pip-pop",
+    "category": "animation",
+    "type": "ANIMATION",
+    "number": "02",
+    "featured": false,
+    "thumbnail": "assets/pip-pop.png",
+    "video_url": "",
+    "description": "Project presentation space for synopsis, production details, capabilities demonstrated and behind-the-scenes material."
+  },
+  {
+    "title": "The Forgotten Box",
+    "slug": "the-forgotten-box",
+    "category": "animation",
+    "type": "ANIMATION",
+    "number": "03",
+    "featured": false,
+    "thumbnail": "assets/the-forgotten-box.jpg",
+    "video_url": "",
+    "description": "Project presentation space for synopsis, production details, capabilities demonstrated and behind-the-scenes material.",
+    "internal_page": "the-forgotten-box.html"
+  },
+  {
+    "title": "Fressco",
+    "slug": "fressco",
+    "category": "commercials",
+    "type": "AI COMMERCIAL",
+    "number": "04",
+    "featured": false,
+    "thumbnail": "assets/fressco.jpg",
+    "video_url": "",
+    "description": "Project presentation space for synopsis, production details, capabilities demonstrated and behind-the-scenes material."
+  },
+  {
+    "title": "TradeNova",
+    "slug": "tradenova",
+    "category": "commercials",
+    "type": "AI COMMERCIAL",
+    "number": "05",
+    "featured": false,
+    "thumbnail": "assets/tradenova.jpg",
+    "video_url": "",
+    "description": "Project presentation space for synopsis, production details, capabilities demonstrated and behind-the-scenes material."
+  },
+  {
+    "title": "Perfume Ad",
+    "slug": "perfume-ad",
+    "category": "commercials",
+    "type": "AI COMMERCIAL",
+    "number": "06",
+    "featured": false,
+    "thumbnail": "assets/perfume.jpg",
+    "video_url": "",
+    "description": "Project presentation space for synopsis, production details, capabilities demonstrated and behind-the-scenes material."
+  },
+  {
+    "title": "Emerald Necklace Ad",
+    "slug": "emerald-necklace-ad",
+    "category": "commercials",
+    "type": "AI COMMERCIAL",
+    "number": "07",
+    "featured": false,
+    "thumbnail": "assets/emerald-necklace.jpg",
+    "video_url": "",
+    "description": "Project presentation space for synopsis, production details, capabilities demonstrated and behind-the-scenes material."
+  }
+]

@@ -1,0 +1,42 @@
+backend:
+  name: git-gateway
+  branch: main
+
+# This makes uploaded thumbnails land in assets/ alongside your existing images
+media_folder: "assets"
+public_folder: "assets"
+
+collections:
+  - name: "projects"
+    label: "Projects"
+    label_singular: "Project"
+    description: "Add, edit, or remove the project cards shown on the WORK section of the site."
+    files:
+      - name: "projects"
+        label: "All Projects"
+        file: "data/projects.json"
+        format: "json"
+        fields:
+          - label: "Projects"
+            name: "projects"
+            widget: "list"
+            summary: "{{fields.title}} — {{fields.type}}"
+            fields:
+              - { label: "Title", name: "title", widget: "string", hint: "Shown on the card and in the modal, e.g. Fressco" }
+              - { label: "Slug (no spaces, used internally)", name: "slug", widget: "string" }
+              - label: "Category"
+                name: "category"
+                widget: "select"
+                options:
+                  - { label: "Films", value: "films" }
+                  - { label: "Animation", value: "animation" }
+                  - { label: "AI Commercials", value: "commercials" }
+                  - { label: "Industrial", value: "industrial" }
+                  - { label: "Experiments", value: "experiments" }
+              - { label: "Type Label (shown on card, e.g. AI COMMERCIAL)", name: "type", widget: "string" }
+              - { label: "Card Number (e.g. 01)", name: "number", widget: "string" }
+              - { label: "Featured (large card at top)", name: "featured", widget: "boolean", default: false }
+              - { label: "Thumbnail Image", name: "thumbnail", widget: "image" }
+              - { label: "YouTube / Vimeo Link (leave blank if none yet)", name: "video_url", widget: "string", required: false }
+              - { label: "Description", name: "description", widget: "text", required: false }
+              - { label: "Internal Page (only for projects with their own full page, e.g. the-forgotten-box.html)", name: "internal_page", widget: "string", required: false }
