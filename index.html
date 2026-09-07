@@ -141,5 +141,18 @@
   </div>
 
   <script src="script.js"></script>
+  <!-- Netlify Identity: catches password-recovery/invite links that land here and sends them to /admin to finish -->
+  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+  <script>
+    if (window.netlifyIdentity) {
+      window.netlifyIdentity.on("init", user => {
+        // If this page loaded because of a recovery/invite/confirmation link,
+        // the widget auto-opens its modal. Once that flow completes, send them to /admin.
+        window.netlifyIdentity.on("login", () => {
+          document.location.href = "/admin/";
+        });
+      });
+    }
+  </script>
 </body>
 </html>
