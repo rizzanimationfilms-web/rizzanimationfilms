@@ -22,7 +22,8 @@ function toEmbedUrl(url){
 
 fetch('data/projects.json')
   .then(r => r.json())
-  .then(projects => {
+  .then(data => {
+    const projects = data.projects || [];
     const grid = document.getElementById('projectGrid');
     const countEl = document.getElementById('projectCount');
     countEl.textContent = String(projects.length).padStart(2,'0') + ' PROJECTS';
