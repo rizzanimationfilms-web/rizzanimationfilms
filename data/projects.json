@@ -25,7 +25,7 @@
     {
       "number": "03",
       "slug": "the-forgotten-box",
-      "video_url": "https://youtu.be/pwjsT0XiuTo",
+      "video_url": "https://www.youtube.com/watch?v=pwjsT0XiuTo",
       "thumbnail": "assets/the-forgotten-box.jpg",
       "featured": false,
       "internal_page": "the-forgotten-box.html",
@@ -37,7 +37,7 @@
     {
       "number": "04",
       "slug": "fressco",
-      "video_url": "https://youtu.be/zov_WGJnvl4",
+      "video_url": "https://www.youtube.com/watch?v=zov_WGJnvl4",
       "thumbnail": "assets/fressco.jpg",
       "featured": false,
       "title": "Fressco",
@@ -48,7 +48,7 @@
     {
       "number": "05",
       "slug": "tradenova",
-      "video_url": "https://youtu.be/r0DRuuvnKJM",
+      "video_url": "https://www.youtube.com/watch?v=r0DRuuvnKJM",
       "thumbnail": "assets/tradenova.jpg",
       "featured": false,
       "title": "TradeNova",
@@ -59,7 +59,7 @@
     {
       "number": "06",
       "slug": "perfume-ad",
-      "video_url": "https://www.youtube.com/watch?v=_ddXXJGiO_Q",
+      "video_url": "https://www.youtube.com/watch?v=SXbiAABXdJQ",
       "thumbnail": "assets/perfume.jpg",
       "featured": false,
       "title": "Perfume Ad",
@@ -70,7 +70,7 @@
     {
       "number": "07",
       "slug": "emerald-necklace-ad",
-      "video_url": "",
+      "video_url": "https://www.youtube.com/watch?v=_ddXXJGiO_Q",
       "thumbnail": "assets/emerald-necklace.jpg",
       "featured": false,
       "title": "Emerald Necklace Ad",
