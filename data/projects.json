@@ -1,82 +1,82 @@
 {
   "projects": [
     {
-      "title": "कमरा नं. 302",
-      "slug": "kamra-302",
-      "category": "films",
-      "type": "FILM",
       "number": "01",
-      "featured": true,
+      "slug": "kamra-302",
+      "video_url": "",
       "thumbnail": "assets/kamra-302.jpg",
-      "video_url": "",
-      "description": "Project presentation space for synopsis, production details, capabilities demonstrated and behind-the-scenes material."
-    },
-    {
-      "title": "Pip Pop",
-      "slug": "pip-pop",
-      "category": "animation",
-      "type": "ANIMATION",
-      "number": "02",
-      "featured": false,
-      "thumbnail": "assets/pip-pop.png",
-      "video_url": "",
-      "description": "Project presentation space for synopsis, production details, capabilities demonstrated and behind-the-scenes material."
-    },
-    {
-      "title": "The Forgotten Box",
-      "slug": "the-forgotten-box",
-      "category": "animation",
-      "type": "ANIMATION",
-      "number": "03",
-      "featured": false,
-      "thumbnail": "assets/the-forgotten-box.jpg",
-      "video_url": "",
+      "featured": true,
+      "title": "कमरा नं. 302",
+      "type": "FILM",
       "description": "Project presentation space for synopsis, production details, capabilities demonstrated and behind-the-scenes material.",
-      "internal_page": "the-forgotten-box.html"
+      "category": "films"
     },
     {
-      "title": "Fressco",
-      "slug": "fressco",
-      "category": "commercials",
-      "type": "AI COMMERCIAL",
+      "number": "02",
+      "slug": "pip-pop",
+      "video_url": "https://www.youtube.com/watch?v=nYeWAAVAkL0",
+      "thumbnail": "assets/pip-pop.png",
+      "featured": false,
+      "title": "Pip Pop",
+      "type": "ANIMATION",
+      "description": "Story of two puppies. No dialouges.\nPre Production- Chat GPT\nProduction-Google flow Veo and Omni flash, Images Nano Banana.\nPost Production- Goggle flow",
+      "category": "animation"
+    },
+    {
+      "number": "03",
+      "slug": "the-forgotten-box",
+      "video_url": "https://www.youtube.com/watch?v=pwjsT0XiuTo",
+      "thumbnail": "assets/the-forgotten-box.jpg",
+      "featured": false,
+      "internal_page": "the-forgotten-box.html",
+      "title": "The Forgotten Box",
+      "type": "ANIMATION",
+      "description": "Project presentation space for synopsis, production details, capabilities demonstrated and behind-the-scenes material.",
+      "category": "animation"
+    },
+    {
       "number": "04",
-      "featured": false,
+      "slug": "fressco",
+      "video_url": "https://www.youtube.com/watch?v=zov_WGJnvl4",
       "thumbnail": "assets/fressco.jpg",
-      "video_url": "",
-      "description": "Project presentation space for synopsis, production details, capabilities demonstrated and behind-the-scenes material."
+      "featured": false,
+      "title": "Fressco",
+      "type": "AI COMMERCIAL",
+      "description": "Project presentation space for synopsis, production details, capabilities demonstrated and behind-the-scenes material.",
+      "category": "commercials"
     },
     {
-      "title": "TradeNova",
-      "slug": "tradenova",
-      "category": "commercials",
-      "type": "AI COMMERCIAL",
       "number": "05",
-      "featured": false,
+      "slug": "tradenova",
+      "video_url": "https://www.youtube.com/watch?v=r0DRuuvnKJM",
       "thumbnail": "assets/tradenova.jpg",
-      "video_url": "",
-      "description": "Project presentation space for synopsis, production details, capabilities demonstrated and behind-the-scenes material."
+      "featured": false,
+      "title": "TradeNova",
+      "type": "AI COMMERCIAL",
+      "description": "Project presentation space for synopsis, production details, capabilities demonstrated and behind-the-scenes material.",
+      "category": "commercials"
     },
     {
-      "title": "Perfume Ad",
-      "slug": "perfume-ad",
-      "category": "commercials",
-      "type": "AI COMMERCIAL",
       "number": "06",
-      "featured": false,
+      "slug": "perfume-ad",
+      "video_url": "https://www.youtube.com/watch?v=SXbiAABXdJQ",
       "thumbnail": "assets/perfume.jpg",
-      "video_url": "",
-      "description": "Project presentation space for synopsis, production details, capabilities demonstrated and behind-the-scenes material."
+      "featured": false,
+      "title": "Perfume Ad",
+      "type": "AI COMMERCIAL",
+      "description": "Project presentation space for synopsis, production details, capabilities demonstrated and behind-the-scenes material.",
+      "category": "commercials"
     },
     {
-      "title": "Emerald Necklace Ad",
-      "slug": "emerald-necklace-ad",
-      "category": "commercials",
-      "type": "AI COMMERCIAL",
       "number": "07",
-      "featured": false,
+      "slug": "emerald-necklace-ad",
+      "video_url": "https://www.youtube.com/watch?v=_ddXXJGiO_Q",
       "thumbnail": "assets/emerald-necklace.jpg",
-      "video_url": "",
-      "description": "Project presentation space for synopsis, production details, capabilities demonstrated and behind-the-scenes material."
+      "featured": false,
+      "title": "Emerald Necklace Ad",
+      "type": "AI COMMERCIAL",
+      "description": "Project presentation space for synopsis, production details, capabilities demonstrated and behind-the-scenes material.",
+      "category": "commercials"
     }
   ]
 }
