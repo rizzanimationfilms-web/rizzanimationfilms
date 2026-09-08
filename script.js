@@ -36,7 +36,7 @@ fetch('data/projects.json?v=' + Date.now(), { cache: 'no-store' })
         data-video="${p.video_url || ''}"
         data-description="${(p.description || '').replace(/"/g,'&quot;')}"
         data-internal="${p.internal_page || ''}">
-        <div class="project-art real-art" style="--thumb:url('${p.thumbnail}')">
+        <div class="project-art real-art" style="--thumb:url('${encodeURI(p.thumbnail)}')">
           <span>${p.type} / ${p.number || ''}</span>
           <b>${p.title.replace(/ /g,'<br>')}</b>
         </div>
