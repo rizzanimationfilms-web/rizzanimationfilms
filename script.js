@@ -1,3 +1,21 @@
+// --- Load and render the Free Tools section ---
+fetch('data/tools.json?v=' + Date.now(), { cache: 'no-store' })
+  .then(r => r.json())
+  .then(data => {
+    const tools = data.tools || [];
+    const grid = document.getElementById('toolsGrid');
+    if (!grid) return;
+    grid.innerHTML = tools.map(t => `
+      <div class="tool-card reveal">
+        <h3>${t.name}</h3>
+        <p>${t.description || ''}</p>
+        <a href="${t.url}" target="_blank" rel="noopener">OPEN TOOL ↗</a>
+      </div>
+    `).join('');
+    document.querySelectorAll('.reveal').forEach(el=>observer.observe(el));
+  })
+  .catch(err => console.error('Could not load tools.json', err));
+
 const header=document.getElementById('siteHeader');
 window.addEventListener('scroll',()=>header.classList.toggle('scrolled',window.scrollY>30));
 

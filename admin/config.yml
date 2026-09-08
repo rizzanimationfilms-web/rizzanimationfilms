@@ -40,3 +40,22 @@ collections:
               - { label: "YouTube / Vimeo Link (leave blank if none yet)", name: "video_url", widget: "string", required: false }
               - { label: "Description", name: "description", widget: "text", required: false }
               - { label: "Internal Page (only for projects with their own full page, e.g. the-forgotten-box.html)", name: "internal_page", widget: "string", required: false }
+
+  - name: "tools"
+    label: "Free Tools"
+    label_singular: "Tool"
+    description: "Add, edit, or remove the free GPT tools shown in the FREE TOOLS section."
+    files:
+      - name: "tools"
+        label: "All Tools"
+        file: "data/tools.json"
+        format: "json"
+        fields:
+          - label: "Tools"
+            name: "tools"
+            widget: "list"
+            summary: "{{fields.name}}"
+            fields:
+              - { label: "Name", name: "name", widget: "string" }
+              - { label: "Description", name: "description", widget: "text" }
+              - { label: "Link (ChatGPT share URL)", name: "url", widget: "string" }

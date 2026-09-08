@@ -1,0 +1,19 @@
+{
+  "tools": [
+    {
+      "name": "Rizz Story",
+      "description": "AI story generator — builds narrative structure, story beats and scripts.",
+      "url": "https://chatgpt.com/g/g-6a4bd8ef937c81919a776707af510864-rizz-story"
+    },
+    {
+      "name": "Rizz Library",
+      "description": "AI character and prop generator — keeps characters, props and environments consistent across a project.",
+      "url": "https://chatgpt.com/g/g-6a4d2df75a908191b3ecfd7c0265c4a7-rizz-library"
+    },
+    {
+      "name": "Rizz Production",
+      "description": "Images and video generation — turns story and reference material into production-ready visual prompts.",
+      "url": "https://chatgpt.com/g/g-6a4fa8e1ff58819192fbd0a8c0f4d74e-rizz-production"
+    }
+  ]
+}
