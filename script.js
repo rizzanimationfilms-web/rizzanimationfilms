@@ -20,7 +20,7 @@ function toEmbedUrl(url){
   return url;
 }
 
-fetch('data/projects.json')
+fetch('data/projects.json?v=' + Date.now(), { cache: 'no-store' })
   .then(r => r.json())
   .then(data => {
     const projects = data.projects || [];
